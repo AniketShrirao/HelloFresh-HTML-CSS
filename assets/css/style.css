@@ -471,6 +471,28 @@ header h1 {
 =================================*/
 
 /*=================================
+  orderNow styling starts here
+=================================*/
+
+.orderNow { background: url('https://via.placeholder.com/1351x442/#cfe2b9?text=HelloFresh?') no-repeat; }
+
+.orderNow .wrapper {
+  width: 30%;
+  padding: 35px 2.3% 43px 4%;
+  background: #fff;
+  position: relative;
+}
+
+
+
+
+
+
+/*=================================
+  orderNow styling ends here
+=================================*/
+
+/*=================================
   main styling starts here
 =================================*/
 
@@ -484,7 +506,6 @@ header h1 {
 /*=================================
   main styling ends here
 =================================*/
-
 
 /*=================================
   main styling ends here
