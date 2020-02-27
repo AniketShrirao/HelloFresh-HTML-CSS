@@ -477,16 +477,75 @@ header h1 {
 .orderNow { background: url('https://via.placeholder.com/1351x442/#cfe2b9?text=HelloFresh?') no-repeat; }
 
 .orderNow .wrapper {
-  width: 30%;
-  padding: 35px 2.3% 43px 4%;
-  background: #fff;
+  width: 38%;
+  padding: 35px 0 43px 0;
+  position: relative;
+  margin: 0 auto 0 33.5%;
+}
+
+.orderNow h3 {
+  margin-bottom: 8px;
+  color: #1f4114;
+  font-size: 43px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.orderNow p {
+  margin: 0 0 0 -3%;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
+
+.orderNow h3 span {
+  color: #e4a68e;
+}
+
+.by {
+  font-size: 34px;
+  font-style: italic;
+  text-transform: capitalize;
   position: relative;
 }
 
+.by::before,
+.by::after {
+  content: '';
+  background: #1f4114;
+  width: 3px;
+  height: 60px;
+}
 
+.by::before {
+  transform: rotate(80deg);
+  left: -439px;
+  top: 20px;
+  position: absolute;
+}
 
+.by::after {
+  right: 0;
+  transform: rotate(80deg);
+  position: absolute;
+  left: -436px;
+  top: 60px;
+}
 
-
+.orderNow .wrapper > a {
+  width: 23.5%;
+  padding: 14px 13px;
+  margin: 30px 29% 0;
+  border: 1px solid #9bbe43;
+  border-radius: 4px;
+  display: flex;
+  color: #fff;
+  background: #9bbe43;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  text-transform: uppercase;
+}
 
 /*=================================
   orderNow styling ends here
