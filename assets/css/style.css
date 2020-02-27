@@ -564,7 +564,7 @@ header h1 {
 .newsletter p { margin-bottom: 11px; }
 
 .newsletter form {
-  margin: 0 0 0 -9%;
+  margin: 0 0 27px -9%;
   display: flex;
   justify-content: center;
 }
@@ -602,8 +602,32 @@ header h1 {
 /*=================================
   footer styling starts here
 =================================*/ 
+footer .wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 55px;
+  border-top: 1px solid;
+}
+footer .sitemap,
+.sitemapContent,
+.copyrights {
+  display: flex;
+}
 
+.sitemapContent {
+  width: 60%;
+}
 
+.sitemapContent ul {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h6 {
+  position: absolute;
+  top : 0;
+}
 
 
 
