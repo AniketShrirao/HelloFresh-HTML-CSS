@@ -416,6 +416,35 @@ header h1 {
 =================================*/
 
 /*=================================
+  instagramPosts styling starts here
+=================================*/
+
+.instagramPosts { padding-top: 53px;}
+
+.instagramPosts h3 {
+  padding: 0px 4%;
+  margin-bottom: 29px;
+  color: #343434;
+  font-size: 29px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.posts {
+  margin-bottom: 34px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+/*=================================
+  instagramPosts styling ends here
+=================================*/
+
+/*=================================
   main styling starts here
 =================================*/
 
