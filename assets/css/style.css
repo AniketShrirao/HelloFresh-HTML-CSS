@@ -237,7 +237,44 @@ header h1 {
   line-height: 1.5;
 }
 
+.bannerContent a {
+  width: 37%;
+  padding: 13px 3.2%;
+  margin: 0 auto;
+  border: 1px solid #c0d689;
+  border-radius: 4px;
+  background: #c0d689;
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  text-transform: uppercase;
+}
 
+.banner .wrapper > a {
+  position: absolute;
+  bottom: 7%;
+  left: 47%;
+  text-indent: -9999px;
+}
+
+.banner .wrapper > a::before {
+  content: '\f107';
+  width: 100%;
+  padding: 8.5px 23px;
+  bottom: 0px;
+  font-family: fontAwesome;
+  float: right;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  position: absolute;
+  text-indent: 0;
+  background: #fff;
+  font-size: 30px;
+  color: #c0d689;
+}
 
 /*=================================
   banner styling ends here
