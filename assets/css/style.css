@@ -552,18 +552,30 @@ header h1 {
 =================================*/
 
 /*=================================
-  main styling starts here
+  newsletter styling starts here
 =================================*/
 
+.newsletter { text-align: center; }
 
+.newsletter h5 { 
+  margin: 35px 0 16px;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
 
+.newsletter p {
+  margin-bottom: 11px;
+}
 
+.newsletter form {
+  
+}
 
 
 
 
 /*=================================
-  main styling ends here
+  newsletter styling ends here
 =================================*/
 
 /*=================================
