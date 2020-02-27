@@ -373,7 +373,43 @@ header h1 {
   text-transform: capitalize;
 }
 
+.choosePlan h3 span { text-transform: lowercase; }
 
+.insideBox { 
+  padding: 0 1%;
+  margin-bottom: 27px;
+}
+
+.insideBox li span {   font-size: 15px; }
+.insideBox li:last-child span{ line-height: 1.5; }
+.insideBox li { padding: 6px; }
+
+.insideBox li:before {
+  content: '\f067';
+  left: 8.5%;
+  font-family: fontAwesome;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  color: #c0d689;
+}
+
+.choosePlan .wrapper > a {
+  width: 41%;
+  padding: 13px 3.2%;
+  margin: 0 auto;
+  border: 1px solid #9bbe43;
+  border-radius: 4px;
+  background: #9bbe43;
+  display: flex;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
 
 /*=================================
   choosePlan styling ends here
