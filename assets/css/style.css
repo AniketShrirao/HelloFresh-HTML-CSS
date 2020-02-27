@@ -106,6 +106,9 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+
+header { margin: -5px; }
+
 header .wrapper {
   display: flex;
   justify-content: space-between;
@@ -113,7 +116,9 @@ header .wrapper {
 
 header h1 {
   position: absolute;
-  top: 8%;
+  border: 1px solid;
+  border-style: inset;
+  top: 3%;
   left: 1%;
 }
 
@@ -134,6 +139,13 @@ header h1 {
 
 .hamburger-nav li { margin: 0 3%; }
 .hamburger-nav li:last-child { margin: 0}
+
+.hamburger-nav li:first-child { 
+  width: 20%;
+  margin:0
+}
+
+.hamburger-nav li:first-child a { margin-left: 33%; } 
 
 .hamburger-nav a { 
   text-transform: capitalize;
@@ -165,6 +177,7 @@ header h1 {
 
 .headerSideLinks li:first-child a {
   width: 74%;
+  margin-top: 15px;
   padding: 9px 11.8% 9px;
   border: 1px solid #c0d689;
   border-radius: 4px;
@@ -173,9 +186,10 @@ header h1 {
   justify-content: center;
 }
 .headerSideLinks li:first-child {
+  margin-left:67%;
+  padding: 0 ;
   display: flex;
   align-self: flex-end;
-  margin-left:67%;
 }
 
 .headerSideLinks li:last-child {
@@ -197,8 +211,52 @@ header h1 {
   main styling starts here
 =================================*/
 
+/*=================================
+  banner styling starts here
+=================================*/
+
+.banner { background: url('https://via.placeholder.com/1351x637/#cfe2b9?text=HelloFresh?') no-repeat; }
+.banner .wrapper { position: relative; }
 
 
+.bannerContent { 
+  padding: 96px 32.5% 312px;
+  text-align: center;
+}
+
+.bannerContent h2 {
+  font-size: 48px;
+  color: #343434;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.bannerContent p {
+  padding: 5% 7%;
+  padding-top: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+
+/*=================================
+  banner styling ends here
+=================================*/
+
+/*=================================
+  main styling starts here
+=================================*/
+
+
+
+
+
+
+
+
+/*=================================
+  main styling ends here
+=================================*/
 
 
 
