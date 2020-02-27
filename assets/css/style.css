@@ -349,6 +349,37 @@ header h1 {
 =================================*/
 
 /*=================================
+  choosePlan styling starts here
+=================================*/
+
+.choosePlan { background: url('https://via.placeholder.com/1351x442/#cfe2b9?text=HelloFresh?') no-repeat; }
+
+.choosePlan .wrapper {
+  margin: 0 0 0 56.3%;
+  width: 28.5%;
+  padding: 59px 2.3% 67px 4%;
+  background: #fff;
+  position: relative;
+}
+
+.choosePlan h3 {
+  padding: 0px 4%;
+  margin-bottom: 17px;
+  color: #343434;
+  font-size: 29px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+
+/*=================================
+  choosePlan styling ends here
+=================================*/
+
+/*=================================
   main styling starts here
 =================================*/
 
@@ -362,8 +393,6 @@ header h1 {
 /*=================================
   main styling ends here
 =================================*/
-
-
 
 
 /*=================================
