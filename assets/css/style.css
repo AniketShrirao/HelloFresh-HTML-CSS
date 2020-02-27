@@ -109,17 +109,85 @@ li {
 header .wrapper {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid;
 }
 
 header h1 {
   position: absolute;
-  top: 100%;
+  top: 8%;
+  left: 1%;
 }
 
+.hamburger,
+.dropdownContent { display: none;}
+.hamburgerMenu { width: 40%; }
 
+.headerSideLinks {
+  width: 50%;
+  position: relative;
+}
 
+.hamburger-nav ul {
+  padding: 22px 0;
+  display: flex;
+  justify-content: space-between;
+}
 
+.hamburger-nav li { margin: 0 3%; }
+.hamburger-nav li:last-child { margin: 0}
+
+.hamburger-nav a { 
+  text-transform: capitalize;
+  color: #000;
+  font-size: 14px;
+}
+
+.dropdown a { position: relative; }
+
+.dropdown a::after {
+  content: '\f107';
+  padding: 0 10px;
+  font-family: fontAwesome;
+  position: absolute;
+  top: 10%;
+}
+
+.headerSideLinks a { 
+  color: #c0d689;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase; 
+}
+
+.headerSideLinks li {
+  width: 26%;
+  padding: 10px 0 22px;
+ }
+
+.headerSideLinks li:first-child a {
+  width: 74%;
+  padding: 9px 11.8% 9px;
+  border: 1px solid #c0d689;
+  border-radius: 4px;
+  color: #c0d689;
+  display: flex;
+  justify-content: center;
+}
+.headerSideLinks li:first-child {
+  display: flex;
+  align-self: flex-end;
+  margin-left:67%;
+}
+
+.headerSideLinks li:last-child {
+  width: 15%;
+  padding: 14px 0 22px;
+  position: absolute;
+  right: -12.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 8px;
+}
 
 /*=================================
   Header styling ends here
