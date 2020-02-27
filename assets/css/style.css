@@ -285,7 +285,7 @@ header h1 {
 =================================*/
 
 .howItWorks h3 {
-  margin-top: 32px;
+  margin: 32px 0;
   color: #343434;
   font-size: 30px;
   letter-spacing: 1px;
@@ -293,10 +293,56 @@ header h1 {
   text-transform: capitalize;
 }
 
+.howItWorks .wrapper { width: 68%; }
+.procedureSteps li img { border-radius: 100%; }
 
+.procedureSteps { 
+  display: flex; 
+  margin-bottom: 27px;
+}
 
+.procedureSteps figure {
+  display: inline-block;
+  margin-bottom: 17px;
+}
 
+.procedureSteps li {
+  width: 25%;
+  text-align: center;
+}
 
+.procedureSteps li p {
+  width: 92%;
+  color: #343434;
+  font-size: 14px;
+  line-height: 1.5;
+  font-size: 14px;
+  padding: 3%;
+}
+
+.procedureSteps li:last-child p { width: 100%;}
+
+.procedureSteps li span {
+  width: 100%;
+  margin-bottom: 7px;
+  display: block;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.howItWorks .wrapper > a {
+  width: 14%;
+  padding: 13px 11px;
+  margin: 0 auto 48px auto;
+  border: 1px solid #c0d689;
+  border-radius: 4px;
+  display: flex;
+  color: #c0d689;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  text-transform: uppercase;
+}
 
 /*=================================
   how it works styling ends here
