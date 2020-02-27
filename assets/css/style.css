@@ -498,9 +498,7 @@ header h1 {
   letter-spacing: 0.3px;
 }
 
-.orderNow h3 span {
-  color: #e4a68e;
-}
+.orderNow h3 span { color: #e4a68e; }
 
 .by {
   font-size: 34px;
@@ -563,16 +561,35 @@ header h1 {
   letter-spacing: 0.3px;
 }
 
-.newsletter p {
-  margin-bottom: 11px;
-}
+.newsletter p { margin-bottom: 11px; }
 
 .newsletter form {
-  
+  margin: 0 0 0 -9%;
+  display: flex;
+  justify-content: center;
 }
 
+.form-group { width: 35%; }
+.form-control { margin: 1px -42px; }
 
+.form-control a {
+  height: 100%;
+  padding: 0px 26px;
+  border: 1px solid #dce6c1;
+  color: #fff;
+  background: #dce6c1;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
 
+.form-group input {
+  padding: 10px;
+  width: 76%;
+}
 
 /*=================================
   newsletter styling ends here
